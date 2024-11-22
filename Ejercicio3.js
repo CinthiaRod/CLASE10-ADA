@@ -13,3 +13,19 @@
 //es buena práctica que sus nombres sean declarados siempre con letras mayúsculas. 
 //Utiliza parseInt para convertir la entrada del usuario a un número entero.
 
+const prompt = require('prompt-sync')();
+
+const EDAD_MINIMA=18;
+const EDAD_MAXIMA=99;
+
+let Age= parseInt(prompt("Please enter your age:"));
+let Message='';
+
+if (Age < 18){
+    Message= 'You do not meet the minimum age range';
+}else if ( Age = 18 && Age <=99){
+    Message='You are within the age range';
+}else{
+    Message='You are not within the age range';
+}
+console.log (Message)
