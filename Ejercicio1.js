@@ -4,3 +4,10 @@
 //Pista: Recordemos que para crear una variable debemos utilizar la palabra reservada "let",
 // seguida del nombre con el cual luego le haremos referencia.
 
+const prompt = require('prompt-sync')();
+
+let Age='';
+let Weight='';
+
+Age=28;
+Weight=73
