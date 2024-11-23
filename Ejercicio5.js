@@ -1,9 +1,4 @@
 //Ejercicio 5 – Operadores:
-//Vimos cómo declarar una variable y asignarle un valor, y probablemente surgió la siguiente pregunta: 
-//¿para qué sirve almacenar datos en variables? 
-//Las variables nos permiten reutilizar el dato asignado en la misma con solo invocar su nombre.
-//También, algo muy importante, así como podemos hacer operaciones matemáticas como sumar (+) o
-// restar (-) números, podemos hacer lo mismo con las variables que las referencian.
 //Pasos a seguir:
 //Declaración y Asignación de Variables:
 //1.Declara y asigna un valor numérico a dos variables: primerNumero y segundoNumero.
@@ -20,3 +15,17 @@
 //Pista 2: Para asignar el valor a una variable utilizamos el operador "=" seguido del valor que queremos
 // asignarle.
 
+const prompt=require('prompt-sync')();
+
+let primerNumero = 10;
+let segundoNumero = 7;
+
+let resultadoSuma = primerNumero + segundoNumero;
+let resultadoResta = primerNumero - segundoNumero;
+let resultadoDivision = primerNumero / segundoNumero;
+let resultadoMultiplicacion = primerNumero * segundoNumero;
+
+console.log ("Resultado de la suma del primer y segundo número:", resultadoSuma);
+console.log ("Resultado de la resta del primer y segundo número:", resultadoResta);
+console.log("Resultado de la multiplicación del primer y segundo número:", resultadoMultiplicacion);
+console.log("Resultado de la división del primer y segundo número:", resultadoDivision);
