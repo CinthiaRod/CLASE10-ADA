@@ -17,3 +17,20 @@
 //3.Verifica si la variable “verdadero” es true o false y muestra un mensaje diferente según el resultado.
 //4.Implementa una condición para verificar si la variable nada es null y muestra un mensaje si es así.
 
+const prompt = require('prompt-sync')();
+ 
+let Verdadero = '8 < 10';
+let Texto = 'Hola';
+let Numero = 12;
+let Nada = '';
+
+let Suma= (Numero + 8);
+let MensajeAdicional =  `${Texto} soy Cinthia`;
+
+if (Verdadero){
+    console.log('Verdadero');
+}else if (Verdadero != 8 < 10){
+    console.log ('Falso');
+}else (Nada = '')
+    console.log ('VARIABLE NADA ES NUll');
+
