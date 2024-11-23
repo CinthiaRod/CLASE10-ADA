@@ -15,3 +15,17 @@
 //El operador lógico "&&" (y lógico) se utiliza para combinar condiciones y todas deben cumplirse 
 //para que el resultado sea verdadero.
 
+const prompt = require ('prompt-sync')();
+
+let FirstNumber = 12;
+let SecondNumber = 8;
+
+if( FirstNumber >10 && SecondNumber > 10){
+    console.log ('The first and second numbers are greater than 10');
+} else if (FirstNumber < 10 && SecondNumber >10){
+    console.log ('The second number is greater than 10');
+}else if (FirstNumber >10 && SecondNumber <10){
+    console.log ('The first number is greater than 10');
+}else{    
+    console.log ('The first and second numbers are not greater than 10')
+}
