@@ -6,3 +6,9 @@
 //Pista 2: La fórmula puede representarse asi:
 //let fahrenheit = celsius * 9 / 5 + 32;
 
+const prompt = require ('prompt-sync')();
+
+let  Celsius = prompt ("Enter the current temperature in celsius:");
+let Fahrenheit = Celsius * 9 / 5 +32;
+
+console.log ('The temperature in Fahrenheit is:', Fahrenheit);
